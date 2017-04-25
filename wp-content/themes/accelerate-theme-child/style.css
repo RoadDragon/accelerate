@@ -30,7 +30,8 @@
 
 #masthead nav ul li {
 	float: left;
-	margin: -25px 10px 0 0;
+	margin: -25px 10px 0 10px;
+	text-transform: uppercase;
 }
 
 /* front-page */
@@ -108,7 +109,25 @@ h5#no-top-margin {
 
 
 /* Contact Form */
-.name-textbox {
-	width: 50%;
-	/*float: left;*/
+/*#nf-form-1-cont {
+    width: 75%;
+    margin: 0 auto;
+}*/
+
+#nf-field-4 {
+    background-color: #45ac9d;
+    color: white;
+    float: right;
+    padding: 10px 50px;
+    font-size: .75em;
+}
+
+.nf-field .nf-field-label label {
+	font-weight: normal;
+	font-size: .75em;
+}
+
+.contact .site-content {
+  width: 35%;
+  margin: 0 auto;
 }
