@@ -105,3 +105,10 @@ h5#no-top-margin {
 #case-study-archive-content {
 	font-size: 16px;
 }
+
+
+/* Contact Form */
+.name-textbox {
+	width: 50%;
+	/*float: left;*/
+}
