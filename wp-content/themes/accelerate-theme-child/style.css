@@ -34,6 +34,10 @@
 	text-transform: uppercase;
 }
 
+/*.menu-top-nav-container li{
+  font-size: .9em;
+}*/
+
 /* front-page */
 h4.featured-work-header {
 	text-align: center;
@@ -130,4 +134,84 @@ h5#no-top-margin {
 .contact .site-content {
   width: 35%;
   margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+/* about-page */
+.services-section {
+	width: 60%;
+	margin: 0 auto;
+}
+.about-page {
+    background: url("img/taxi-photo-for-about.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 100%;
+    margin: 0 0 80px;
+    padding: 100px 0;
+}
+
+#about-head-text {
+	margin: 0 auto;
+	width: 40%;
+	color: white;
+}
+
+#color-green {
+	color: #45ac9d;
+}
+
+.about-services {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.our-services {
+	text-transform: uppercase;
+	align: center;
+	
+	font-size: 14px;
+}
+
+.services-subtitle, .service-description {
+	font-weight: normal;
+	color: #9EA3A8;
+	font-size: 14px;
+	/*margin: 0 0 12px;*/
+}
+
+.one-service-container {
+/*	width: 60%;
+*/	margin: 0 auto;
+}
+
+#bullseye {
+	background: url("img/bullseye.png") no-repeat;
+}
+
+.service-icon {
+	min-width: 220px;
+	height: 220px;
+	float: left;
+}
+
+.service-text {
+	width: calc(100% - 250px);
+	margin-left: 15px;
+	float: right;
+}
+
+.service-text {
+	top: 0px;
+}
+
+.service-title-text {
+	font-weight: normal;
+	font-size: 20px;
 }
