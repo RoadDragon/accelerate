@@ -144,38 +144,52 @@ h5#no-top-margin {
 
 
 
-/* about-page */
+/* Full Width Page Template */
+
+img.bigimage {
+	width: 100%;
+	background: url("<?php echo $bigimage; ?>") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+p#bigimage-text { 
+   position: absolute; 
+   top: 200px; 
+   left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+   width: 40%; 
+   color: white;
+   margin: 0 auto;
+}
+
 .services-section {
 	width: 60%;
 	margin: 0 auto;
-}
-.about-page {
-    background: url("img/taxi-photo-for-about.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-    height: 100%;
-    margin: 0 0 80px;
-    padding: 100px 0;
-}
-
-#about-head-text {
-	margin: 0 auto;
-	width: 40%;
-	color: white;
 }
 
 #color-green {
 	color: #45ac9d;
 }
 
+/* about-page */
+
+.about-page {
+    background: url("<?php echo $bigimage; ?>") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 100%;
+    margin: 0 0 80px;
+/*    padding: 100px 0;*/
+}
+
 .about-services {
-	width: 50%;
+	/*width: 50%;*/
 	margin: 0 auto;
 	text-align: center;
 }
 
 .our-services {
 	text-transform: uppercase;
-	align: center;
-	
+	text-align: center;
 	font-size: 14px;
 }
 
@@ -187,18 +201,20 @@ h5#no-top-margin {
 }
 
 .one-service-container {
-/*	width: 60%;
-*/	margin: 0 auto;
+	width: 60%;
+	margin: 0 auto;
 }
 
 #bullseye {
 	background: url("img/bullseye.png") no-repeat;
+
 }
 
 .service-icon {
 	min-width: 220px;
 	height: 220px;
 	float: left;
+	padding-top: 30px;
 }
 
 .service-text {
@@ -215,3 +231,7 @@ h5#no-top-margin {
 	font-weight: normal;
 	font-size: 20px;
 }
+
+
+
+

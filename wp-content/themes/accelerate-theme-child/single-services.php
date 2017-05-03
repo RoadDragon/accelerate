@@ -53,9 +53,24 @@ get_header(); ?>
 
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
-			<?php while ( have_posts() ) : the_post(); ?>
-				<?php the_content(); ?>
-			<?php endwhile; // end of the loop. ?>
+
+		<?php $size= "full"; ?>
+			<?php while ( have_posts() ) : the_post(); 
+
+				$table_image_left = get_field('table_image_left');
+				$image_left = get_field('image_left');
+				$content_right = get_field('content_right'); ?>
+
+
+			<!-- <article class="service"> -->
+				
+				<img src = "<?php echo wp_get_attachment_image( $image_left, $size ) ; ?>" />
+				<?php echo $content_right ?>
+
+					<?php the_content(); ?>
+<!-- 
+			</article> -->
+				<?php endwhile; // end of the loop. ?>
 
 		</div> <!-- #content
 	</div><!-- #primary --> 
